@@ -7,7 +7,77 @@
 //Teste larissa
 
 int main() {
-    printf("Desafio Super Trunfo!\n");
+    char estado, estado2;
+    char codigo, codigo2 [3];
+    char nome, nome2 [50];
+    int populacao, populacao2;
+    float area, area2;
+    float pib, pib2;
+    int turisticos, turisticos2;
+   
+    // Inseri as variaveis das cidades juntos para melhor organização
+
+    printf("Bem vindo ao Desafio Super Trunfo! Insira os dados da Carta 01\n");
+
+    printf("Digite uma letra de 'A' a 'H': ");
+    scanf("%s", &estado);
+
+    printf("Digite a letra do Estado seguida de um número de 01 a 04(ex: F01, D03): ");
+    scanf("%s", &codigo);
+
+    printf("Digite o nome da cidade: ");
+    scanf("%s", &nome);
+
+    printf("Digite o número de habitantes da cidade: ");
+    scanf("%d", &populacao);
+
+    printf("Digite a área da cidade em quilometros quadrados (km²): ");
+    scanf("%f", &area);
+
+    printf("Digite o Produto Interno Bruto(PIB) da cidade: ");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos na cidade: ");
+    scanf("%d", &turisticos);
+
+    // Comandos para obtenção de dados da Primeira carta separadamente e agora faço a divisão para melhor clareza e organização!
+
+    printf("Muito bem! Agora insira os dados da Carta 02\n");
+
+    printf("Digite uma letra de 'A' a 'H': ");
+    scanf("%s", estado2);
+
+    printf("Digite a letra do Estado seguida de um número de 01 a 04(ex: F01, D03): ");
+    scanf("%s", &codigo2);
+
+    printf("Digite o nome da cidade: ");
+    scanf("%s", &nome2);
+
+    printf("Digite o número de habitantes da cidade: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a área da cidade em quilometros quadrados (km²): ");
+    scanf("%f", &area2);
+
+    printf("Digite o Produto Interno Bruto(PIB) da cidade: ");
+    scanf("%f", &pib2);
+
+    printf("Digite a quantidade de pontos turisticos na cidade: ");
+    scanf("%d", &turisticos2);
+
+    // Após obtenção dos dados, fazer a impressão das duas cartas
+
+    
+
+    
+
+
+
+    
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
