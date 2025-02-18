@@ -8,7 +8,6 @@
 
 int main() {
     char estado, estado2;
-    char codigo, codigo2 [3];
     char nome, nome2 [50];
     int populacao, populacao2;
     float area, area2;
@@ -20,7 +19,7 @@ int main() {
     printf("Bem vindo ao Desafio Super Trunfo! Insira os dados da Carta 01\n");
 
     printf("Digite uma letra de 'A' a 'H': ");
-    scanf("%s", &estado);
+    scanf("%c", &estado);
 
     printf("Digite a letra do Estado seguida de um número de 01 a 04(ex: F01, D03): ");
     scanf("%s", &codigo);
@@ -67,7 +66,8 @@ int main() {
 
     // Após obtenção dos dados, fazer a impressão das duas cartas
 
-    
+    printf("Estado: %c", estado);
+    printf("Nome da cidade: %s", nome);
 
     
 
